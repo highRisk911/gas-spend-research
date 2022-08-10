@@ -118,8 +118,7 @@ Constraints: 1527
  		 }
 ##### Verifier: https://rinkeby.etherscan.io/address/0x539117330EA7E2B2C4782a50f5819a48ABfbc820#code
 ##### Wrapped: https://rinkeby.etherscan.io/address/0x22FAcd08fc08C42Fc61B2bDE6030e6EA80ecB1d9#code
-##### Transaction:
-https://rinkeby.etherscan.io/tx/0x9fa852f2b3d4665cf3c8fe18319846a6559758a9a4d6c06f9391adc005f09783
+##### Transaction: https://rinkeby.etherscan.io/tx/0x9fa852f2b3d4665cf3c8fe18319846a6559758a9a4d6c06f9391adc005f09783
 
 ###### Gas Limit & Usage by Txn: 1,671,601 | 1,114,401 (66.67%)
 Note: 99 input elements - we got 4.494 times more gas spended than one of the input options.
