@@ -1,0 +1,12 @@
+def main(private field age, field challenge_id, field[100] addField) -> field {
+           assert(age > 18 && challenge_id > 0);
+           field mut proofedAge =  (age >= 18) ? 1:0;
+
+     for u32 i in 0..100{
+        proofedAge = proofedAge + addField[i];
+}
+     for u32 i in 0..100{
+        proofedAge = proofedAge + addField[i];
+}
+    return proofedAge * challenge_id;
+      }

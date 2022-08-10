@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "name": "age",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "challenge_id",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "addField",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "field"
+  }
+}

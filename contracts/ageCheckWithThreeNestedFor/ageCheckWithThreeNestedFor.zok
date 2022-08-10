@@ -1,0 +1,20 @@
+//if we decrease 1000 to 100 - it's compiling for a long time, and we have 1 00 00 00 operations
+//1527
+ def main(private field age, field challenge_id, field[1000] addField) -> field {
+           assert(age > 18 && challenge_id > 0);
+           field mut proofedAge =  (age >= 18) ? 1:0;
+//o(n^3)
+     for u32 i in 0..100 {
+        proofedAge = proofedAge + addField[i];
+            for u32 i in 0..100 {
+                    proofedAge = proofedAge + addField[i];
+                        for u32 i in 0..100 {
+                                proofedAge = proofedAge + addField[i];
+
+                             }
+                 }
+     }
+
+
+            return proofedAge * challenge_id;
+    }

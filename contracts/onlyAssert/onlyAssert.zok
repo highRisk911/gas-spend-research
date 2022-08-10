@@ -1,0 +1,4 @@
+def main(private field age) {
+     assert(age > 18);
+     return;
+    }
