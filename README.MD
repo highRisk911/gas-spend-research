@@ -191,3 +191,4 @@ So we have limited space for smart-contract, therefore we can't use so long inpu
 2) Verifier complexity o(1) – verifying always for the const time;
 3) Amount of the input data directly influence to gas spending;
 4) Complexity of computing circuit influence only to compilation time and witness-computing;****
+5) Ethereum max contract source code weight - 24,576 bytes
