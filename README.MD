@@ -183,6 +183,7 @@ In this case, the gas spending is approx 400,000.
 ### IMPORTANT 
 "Warning: Contract code size is 127133 bytes and exceeds 24576 bytes (a limit introduced in Spurious Dragon). This contract may not be deployable on mainnet. Consider enabling the optimizer (with a low "runs" value!), turning off revert strings, or using libraries.
 "
+
 So we have limited space for smart-contract, therefore we can't use so long input as we need, practice shows that we have error, if try using 1 000 input elements.  
 
 ### Conclusion:
